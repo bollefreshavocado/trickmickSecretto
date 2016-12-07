@@ -32,12 +32,10 @@ public class start {
 		shell.setLayout(gridLayout);
 
 		GridData data = new GridData();
-		data.horizontalSpan = 3;
 
 
 		data = new GridData();
 		data.horizontalAlignment = GridData.FILL;
-		data.horizontalSpan = 2;
 		data.grabExcessHorizontalSpace = true;
 
 		final Browser browser;
@@ -58,7 +56,6 @@ public class start {
 
 		final Label status = new Label(shell, SWT.NONE);
 		data = new GridData(GridData.FILL_HORIZONTAL);
-		data.horizontalSpan = 2;
 		status.setLayoutData(data);
 
 		final ProgressBar progressBar = new ProgressBar(shell, SWT.NONE);
